@@ -24,6 +24,6 @@ window.addEventListener('load', async function() {
 
                       return -firstDate.localeCompare(secondDate)
                     })
-    .forEach(li => projectsTab.parentElement.appendChild(li));
+    .forEach(li => projectsTab.getElementsByTagName("li")[0].parentElement.appendChild(li));
   console.log("Sorting completed!")
 }, false);
