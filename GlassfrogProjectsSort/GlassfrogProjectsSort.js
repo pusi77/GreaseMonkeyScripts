@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Glassfrog Projects sort by timestamp
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/pusi77
 // @match       https://app.glassfrog.com/organizations/*/orgnav/roles/*/projects*
 // @grant       none
 // @version     1.0
