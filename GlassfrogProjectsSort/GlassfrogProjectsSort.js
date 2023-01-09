@@ -3,7 +3,7 @@
 // @namespace   https://github.com/pusi77
 // @match       https://app.glassfrog.com/organizations/*/orgnav/roles/*/projects*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      pusi77
 // @description Sorts projects from Projects page based on the "createdAt" timestamp
 // ==/UserScript==
