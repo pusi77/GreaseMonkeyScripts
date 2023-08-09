@@ -3,7 +3,7 @@
 // @namespace   https://github.com/pusi77
 // @match       https://app.glassfrog.com/organizations/*/orgnav/roles/*/projects*
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @author      pusi77
 // @description Sorts projects from Projects page based on the "createdAt" timestamp
 // ==/UserScript==
@@ -15,7 +15,7 @@ window.addEventListener('load', async function() {
 
 
   var projectsTab = document.getElementById("projects-tab")
-  Array.from(projectsTab.getElementsByTagName("li"))
+  Array.from(projectsTab.querySelectorAll("*[class^=\"item--\"]"))
     .sort((a, b) => {
                       var first = a.querySelectorAll("*[class^=\"itemDetailRow--\"]")[0].children[4]
                       var second = b.querySelectorAll("*[class^=\"itemDetailRow--\"]")[0].children[4]
