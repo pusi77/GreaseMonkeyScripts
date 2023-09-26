@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        CFN Doc JSON Remover
 // @namespace   https://github.com/pusi77
-// @match       https://docs.aws.amazon.com/*
+// @match       https://docs.aws.amazon.com/AWSCloudFormation/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      pusi77
 // @description Removes all JSON templates in Cloudformation Documentation
 // ==/UserScript==
