@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        ExamTopics Cirlce Remover
+// @name        ExamTopics Circle Remover
 // @namespace   https://github.com/pusi77
 // @match       https://www.examtopics.com/exams/*/*/view/
 // @grant       none
-// @version     1.0
+// @version     1.0.1
 // @author      pusi77
 // @description Removes all "correct answers" (which are never correct) green circle from the page
 // ==/UserScript==
