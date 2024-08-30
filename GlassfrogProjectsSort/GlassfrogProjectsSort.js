@@ -3,7 +3,7 @@
 // @namespace   https://github.com/pusi77
 // @match       https://app.glassfrog.com/organizations/*/orgnav/roles/*/projects*
 // @grant       none
-// @version     1.3
+// @version     1.4
 // @author      pusi77
 // @description Sorts projects from Projects page based on the creation date
 // ==/UserScript==
@@ -36,8 +36,8 @@ window.addEventListener('load', async function() {
     var projectsTab = document.getElementById("projects-tab");
     array = Array.from(projectsTab.querySelectorAll("*[class^=\"item--\"]"))
         .sort((a, b) => {
-            var firstDateStr = a.querySelectorAll("*[class^=\"itemDetailRow--\"]")[0].children[4].textContent;
-            var secondDateStr = b.querySelectorAll("*[class^=\"itemDetailRow--\"]")[0].children[4].textContent;
+            var firstDateStr = a.querySelectorAll("*[class^=\"itemDetailRow--\"]")[0].children[2].textContent;
+            var secondDateStr = b.querySelectorAll("*[class^=\"itemDetailRow--\"]")[0].children[2].textContent;
 
             // Parse the date strings into Date objects
             var firstDate = parseDateFromString(firstDateStr);
@@ -52,7 +52,6 @@ window.addEventListener('load', async function() {
             }
         })
         .forEach(li => projectsTab.getElementsByTagName("li")[0].parentElement.appendChild(li));
-    console.log(array)
 
     console.log("Sorting completed!");
 }, false);
