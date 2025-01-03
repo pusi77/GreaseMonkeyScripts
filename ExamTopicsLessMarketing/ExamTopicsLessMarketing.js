@@ -3,7 +3,7 @@
 // @namespace   https://github.com/pusi77
 // @match       https://www.examtopics.com/exams/*/*/view/*
 // @grant       none
-// @version     1.0.0
+// @version     1.0.1
 // @author      pusi77
 // @description I don't care if somone bought a subscription, I just want to see the answers
 // ==/UserScript==
