@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        ExamTopics Less Marketing
 // @namespace   https://github.com/pusi77
-// @match       https://www.examtopics.com/exams/*/*/view/
+// @match       https://www.examtopics.com/exams/*/*/view/*
 // @grant       none
 // @version     1.0.0
 // @author      pusi77
